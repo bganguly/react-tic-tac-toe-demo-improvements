@@ -1,4 +1,4 @@
-This work refactors the [legacy tic-tac-toe react tutorial](https://legacy.reactjs.org/tutorial/tutorial.html) to use hooks and to further complete the improvements suggested in the current tutorial [current react tutorial - 5/2/23](https://react.dev/learn/tutorial-tic-tac-toe#wrapping-up).  
+This work refactors the [legacy tic-tac-toe react tutorial](https://legacy.reactjs.org/tutorial/tutorial.html) to use hooks and to further complete the improvements suggested in the [current tutorial - 5/2/23](https://react.dev/learn/tutorial-tic-tac-toe#wrapping-up).  
 
 Run simply as:
 ```
