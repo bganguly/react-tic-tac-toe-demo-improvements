@@ -12,27 +12,27 @@ Main emphahsis is:
 - refactor to use functional components and demonastrate hooks
 - systematically wrap up all the suggested improvements in the tutorial - see https://reactjs.org/tutorial/tutorial.html#wrapping-up
 
-![Screen Shot 2023-05-18 at 11 22 51 PM](https://github.com/bganguly/tic-tac-toe-using-functional-components/assets/627740/2d621f7f-71a6-4674-8c68-6ceb2780fa89)
-![Screen Shot 2023-05-18 at 11 22 20 PM](https://github.com/bganguly/tic-tac-toe-using-functional-components/assets/627740/cf06c8c3-8ec2-4b64-8e03-74b2c0eef529)
+![Screen Shot 2023-05-18 at 11 22 51 PM](https://github.com/bganguly/react-tic-tac-toe-demo-improvements/assets/627740/2d621f7f-71a6-4674-8c68-6ceb2780fa89)
+![Screen Shot 2023-05-18 at 11 22 20 PM](https://github.com/bganguly/react-tic-tac-toe-demo-improvements/assets/627740/cf06c8c3-8ec2-4b64-8e03-74b2c0eef529)
 
 
 ### Refactoring to use hooks ###
 - ~~split single index.js into separate component files~~  
--- done. see [branch 01](https://github.com/bganguly/tic-tac-toe-using-functional-components/tree/01-split-indexjs-into-individual-files)  
+-- done. see [branch 01](https://github.com/bganguly/react-tic-tac-toe-demo-improvements/tree/01-split-indexjs-into-individual-files)  
 - ~~rewrite two class based components to be functional and use hooks~~  
--- done. see [branch 02](https://github.com/bganguly/tic-tac-toe-using-functional-components/tree/02-use-functional-components-and-hooks)
+-- done. see [branch 02](https://github.com/bganguly/react-tic-tac-toe-demo-improvements/tree/02-use-functional-components-and-hooks)
 
 ### Other improvements done ###
 - ~~Rewrite Board to use two loops to make the squares instead of hardcoding them.~~  
--- done- see [branch 03](https://github.com/bganguly/tic-tac-toe-using-functional-components/tree/03-removed-hard-coded-repitition-in-boardjs)  
+-- done- see [branch 03](https://github.com/bganguly/react-tic-tac-toe-demo-improvements/tree/03-removed-hard-coded-repitition-in-boardjs)  
 - ~~Rewrite based on updated tutorial as of 5/2/23, refactor the args and params, simplify some variables and add back the de-duplication of sqaures rendering code~~  
--- done. see [branch 04](https://github.com/bganguly/tic-tac-toe-using-functional-components/tree/04-refactored-certain-props-and-variables)  
+-- done. see [branch 04](https://github.com/bganguly/react-tic-tac-toe-demo-improvements/tree/04-refactored-certain-props-and-variables)  
 - ~~For the current move only, show “You are at move #…” instead of a button.~~  
--- done- see [branch 05](https://github.com/bganguly/tic-tac-toe-using-functional-components/tree/05-show-text-instead-of-button-for-current-move)  
+-- done- see [branch 05](https://github.com/bganguly/react-tic-tac-toe-demo-improvements/tree/05-show-text-instead-of-button-for-current-move)  
 - ~~Add a toggle button that lets you sort the moves in either ascending or descending order.~~  
--- done- see [branch 06](https://github.com/bganguly/tic-tac-toe-using-functional-components/tree/06-allow-moves-to-be-sorted)  
+-- done- see [branch 06](https://github.com/bganguly/react-tic-tac-toe-demo-improvements/tree/06-allow-moves-to-be-sorted)  
 - ~~When someone wins, highlight the three squares that caused the win.~~
 - ~~When no one wins, display a message about the result being a draw.~~  
--- done - see [branch 07](https://github.com/bganguly/tic-tac-toe-using-functional-components/tree/07-highlight-winning-squares)  
+-- done - see [branch 07](https://github.com/bganguly/react-tic-tac-toe-demo-improvements/tree/07-highlight-winning-squares)  
 - ~~Display the location for each move in the format (row, col) in the move history list.~~  
 -- done - (this branch)
